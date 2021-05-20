@@ -1,13 +1,11 @@
 ## CORS is 💔 Next.js is ♥
 
-Are you frustrated with the CORS error while using Github Jobs API?
-
-Use [this URL](https://github-api-next.vercel.app/api/positions) to get the data without the headache.
-
-You can pass all the query params that main API supports. [See it here](https://jobs.github.com/api)
+Are you frustrated with the CORS error while using any API?
 
 
-![IMAGE](https://user-images.githubusercontent.com/36589645/108876414-311fcd00-7624-11eb-8aad-deead053ca86.png)
+You can pass all the query params that main API supports. 
+
+
 
 Uses Next.js API routes to get the data from the main [Github Jobs API](https://jobs.github.com/positions.json) so you don't have to bang your head for CORS error.
 
