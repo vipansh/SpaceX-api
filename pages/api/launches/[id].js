@@ -17,7 +17,7 @@ export default async (req, res) => {
   }
   await cors(req, res);
 
-  const URL = `https://api.spacexdata.com/v4/launches/${id}`;
+  const URL = `https://api.spacexdata.com/v3/launches/${id}`;
   try {
     const { data } = await axios.get(URL);
     return res.status(200).json({ data });
