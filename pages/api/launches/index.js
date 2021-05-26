@@ -9,7 +9,7 @@ const cors = middleware(
 export default async (req, res) => {
   const url = req.url.includes("?") ? req.url.split("/api/launches")[1] : "";
   await cors(req, res);
-  const URL = `https://api.spacexdata.com/v3/launches`;
+  const URL = `https://api.spacexdata.com/v4/launches`;
   try {
     const { data } = await axios.get(URL);
     console.log("🚀 - file: index.js - line 16 - data", data);
